@@ -4,7 +4,7 @@ public class Pastel implements Receita {
 
 	@Override
 	public String prato() {
-		return "Pastel de Carne";
+		return "Pastel de Carne e Queijo";
 	}
 
 	@Override
