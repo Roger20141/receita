@@ -31,6 +31,6 @@ public class CozinhaTest {
 	@Test
 	public void testaSeReceitaEPastel() {
 		List<Receita> receitas = caseiro.receitas();
-		assertEquals("Pastel de Carne", receitas.get(1).prato());
+		assertEquals("Pastel de Queijo e Goiabada", receitas.get(1).prato());
 	}
 }
